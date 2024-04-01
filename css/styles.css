@@ -184,9 +184,14 @@ ul{
     letter-spacing: 0.02em;
     color: #2e2f42;
     margin-bottom: 8px;
+    flex-basis: calc((100% - 72px) / 4);
 }
 .team-section{
     background-color: #f4f4fd;
+    padding: 120px 0;
+}
+.team-section-list{
+    border-radius: 0px 0px 4px 4px;
 }
 .team-name{
     font-weight: 500;
@@ -194,9 +199,22 @@ ul{
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    text-align: center;
+    margin-bottom: 8px;
+}
+.team-member{
+    padding: 32px 0;
+}
+.team{
+    margin-bottom: 72px;
+}
+.team-section-names-list{
+    display: flex;
+    gap: 24px;
 }
 .paragraph{
     color: #434455;
+    text-align: center;
 }
 .advantages-section{
     padding: 120px 0;

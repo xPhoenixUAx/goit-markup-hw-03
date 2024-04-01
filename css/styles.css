@@ -243,6 +243,6 @@ ul {
   display: flex;
   gap: 24px;
 }
-.advantages-punkts-item {
+.advantages-punkts {
   width: calc((100% - 72px) / 4);
 }

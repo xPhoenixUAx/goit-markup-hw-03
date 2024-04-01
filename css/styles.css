@@ -7,6 +7,29 @@ body{
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+.container{
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.header{
+    border-bottom: 1px solid #e7e9fc;
+}
+.header-nav{
+    display: flex;
+    align-items: center;
+}
+.header-list{
+    display:flex;
+    gap: 40px;
+}
+.nav-link{
+    padding: 24px 0;
+}
+.header-contacts{
+    display: flex;
+    gap: 40px;
+}
 .logo{
     font-family: "Raleway",sans-serif;
     font-weight: 700;
@@ -15,6 +38,7 @@ body{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    margin-right: 76px;
 }
 .logo-web{
     font-weight: 700;

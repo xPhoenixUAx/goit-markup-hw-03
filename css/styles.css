@@ -246,3 +246,6 @@ ul {
 .advantages-punkts {
     flex-basis: calc((100% - 3 * 24px) / 4);
 }
+img{
+    display: block;
+}

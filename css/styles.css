@@ -176,6 +176,7 @@ ul{
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 .team-section{
     background-color: #f4f4fd;
@@ -189,4 +190,14 @@ ul{
 }
 .paragraph{
     color: #434455;
+}
+.advantages-section{
+    padding: 120px 0;
+}
+.advantages-box{
+    display: flex;
+    gap: 24px;
+}
+.advantages-punkts{
+    width: calc((100%-72px)/4);
 }

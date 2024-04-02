@@ -247,7 +247,7 @@ ul {
   display: flex;
   gap: 24px;
 }
-.advantages-punkts{
+.advantages-box{
   width: calc((100% - 3 * 24px) / 4);
   padding-left: 0 auto;
   margin: 0 auto;

@@ -246,11 +246,11 @@ ul {
 .advantages-box {
   display: flex;
   gap: 24px;
-}
-.advantages-box{
-  width: calc((100% - 3 * 24px) / 4);
   padding-left: 0 auto;
   margin: 0 auto;
+}
+.advantages-punkts{
+  width: calc((100% - 3 * 24px) / 4);
 }
 img{
     display: block;

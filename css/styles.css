@@ -156,12 +156,15 @@ ul {
   padding: 188px 0;
 }
 .hero-section-title {
+  font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
   max-width: 496px;
+  margin: 0 auto;
+  padding-bottom: 32px;
 }
 .button-order {
   background-color: #4d5ae5;
@@ -177,6 +180,8 @@ ul {
   height: 56px;
   border: none;
   border-radius: 4px;
+  margin: 0 auto;
+  padding: 16px 32px;
 }
 .button-order:hover {
   background-color: #404bbf;
@@ -244,8 +249,8 @@ ul {
 }
 .advantages-punkts{
   width: calc((100% - 3 * 24px) / 4);
-  padding-left: 0;
-  margin: 0;
+  padding-left: 0 auto;
+  margin: 0 auto;
 }
 img{
     display: block;
